@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.8/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'w)_!u=^z&oqzrlzxx4zfi$7-gl+y1hc=+rk1$5=xqn7=a^5$r@'
+SECRET_KEY = '97vqo*t)m)h_3pjjw4(=9m&kc*-_a*30icly_ifg$80jeg_cbz'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -40,6 +40,8 @@ INSTALLED_APPS = (
     'shop',
     'cart',
     'orders',
+    'payment',
+    'paypal.standard.ipn',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -67,7 +69,6 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'cart.context_processors.cart',
-
             ],
         },
     },
@@ -104,10 +105,15 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
-
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 
 CART_SESSION_ID = 'cart'
+
+
+#django-paypal settings
+PAYPAL_RECEIVER_EMAIL = 'lashleykeith@gmail.com'
+PAYPAL_TEST = True
