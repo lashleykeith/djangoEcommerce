@@ -10,6 +10,12 @@ I have an error I don't know how to fix.  When I try to load the project I get t
 TypeError: a bytes-like object is required, not 'str'`
 ![screenshot_3](https://user-images.githubusercontent.com/21030885/44830128-25bdd780-ac5b-11e8-98f1-89b86db83833.jpg)
 
+After this I looked at the code I believe that I need to change something here.
+![screenshot_1](https://user-images.githubusercontent.com/21030885/44836411-d3d47c00-ac71-11e8-9885-410406f17726.jpg)
+
+
+
+
 
 # problem 2
 It has one problem in that when you register and click Place Order it does not render the success page located in myshop\orders\templates\orders\order.
