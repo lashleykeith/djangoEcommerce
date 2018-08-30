@@ -1,6 +1,16 @@
 # djangoEcommerce
 A django ecommerce app
 
+
+
+# problem 1
+I have an error I don't know how to fix.  When I try to load the project I get this message.
+`  File "c:\users\g\appdata\local\programs\python\python36-32\Lib\nturl2path.py", line 48, in pathname2url
+    if not ':' in p:
+TypeError: a bytes-like object is required, not 'str'`
+
+
+# problem 2
 It has one problem in that when you register and click Place Order it does not render the success page located in myshop\orders\templates\orders\order.
 
 #steps to start the app
