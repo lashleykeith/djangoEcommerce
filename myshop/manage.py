@@ -8,4 +8,7 @@ if __name__ == "__main__":
     from django.core.management import execute_from_command_line
 
     execute_from_command_line(sys.argv)
-# 2:00
+
+
+# 3:00
+#https://stackoverflow.com/questions/28211418/python-oserror-cannot-load-library-libcairo-so-2
