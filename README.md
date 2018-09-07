@@ -12,22 +12,18 @@ A django ecommerce app
 
 
 - four
-![screenshot_4](https://user-images.githubusercontent.com/21030885/45229855-0df0ee00-b302-11e8-88c0-58261d68c3d8.jpg)
-
-
-- five
 ![screenshot_3](https://user-images.githubusercontent.com/21030885/45229847-09c4d080-b302-11e8-8ef6-c5c198ceca36.jpg)
 
 
-- six
+- five
 ![screenshot_4](https://user-images.githubusercontent.com/21030885/45229855-0df0ee00-b302-11e8-88c0-58261d68c3d8.jpg)
 
 
-- seven
+- six
 ![screenshot_5](https://user-images.githubusercontent.com/21030885/45229902-2bbe5300-b302-11e8-9207-6760e08fb797.jpg)
 
 
-- eight
+- seven
 ![screenshot_6](https://user-images.githubusercontent.com/21030885/45229910-324cca80-b302-11e8-8415-d601a45739e8.jpg)
 
 
