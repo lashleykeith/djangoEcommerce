@@ -1,6 +1,6 @@
 # djangoEcommerce
 A django ecommerce app
-
+Everything works fine expect for the check out button.  When I click the button it will not allow me to register the items that I have selected.  I have put pictures and code. If anyone could help me I would greatly appreciate it.
 - one
 ![screenshot_8](https://user-images.githubusercontent.com/21030885/45230189-14cc3080-b303-11e8-9227-4b85729360a4.jpg)
 
